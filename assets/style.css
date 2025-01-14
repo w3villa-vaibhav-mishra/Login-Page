@@ -1,0 +1,935 @@
+.{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.nav {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-light-wave-blurred-backdrop-vector-illustration-your-graphic-design-banner-wallpaper-template-poster_1142-7640.jpg?semt=ais_hybrid");
+    background-size: cover; /* Make sure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+.login{
+    /* background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-light-wave-blurred-backdrop-vector-illustration-your-graphic-design-banner-wallpaper-template-poster_1142-7640.jpg?semt=ais_hybrid"); */
+
+    background-color: floralwhite;
+    height: 65%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover; /* Make sure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+    border: transparent;
+
+      border-radius: 25px;
+  
+}
+.login h1{
+    margin-top: 40px;
+   margin-left: 40%;
+}
+.sec2{
+    background-color: transparent;
+    height: 35%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 0.2px solid black;
+    border-radius: 10px;
+}
+.name{
+    margin-top: 40px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    gap: 10px;
+}
+.username{
+    width: 80%;
+
+}
+.username input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: larger;
+
+}
+.icon1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1 i {
+    font-size: 2em; /* This makes the icon 2 times the default size */
+}
+.pass{
+    justify-content: center;
+    width: 80%;
+    margin-top: 40px;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    gap: 10px;
+
+}
+.password{
+    width: 80%;
+
+}
+.password input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: larger;
+
+}
+.icon2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.remeber{
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+
+
+}
+.rem1{
+}
+
+.rem2{
+    display: flex;
+    justify-content: end;
+}
+
+.submit{
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+ width: 60%;
+ font-size: larger;
+ border-radius: 25px;
+ background-color: #0000FF;
+ color: #fff;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+.social1{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-size: xx-large;
+    height: 30%;
+}
+.f5{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-top: 0%;
+
+  }
+  .smbttn{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+/* media 600px */
+  @media (max-width: 600px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .login {
+        width: 60%; /* Make the form take up more space on small screens */
+        height: auto; /* Allow the height to adjust based on content */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .login h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec2{
+        background-color: transparent;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 0.2px solid black;
+        border-radius: 10px;
+    }
+    .name{
+        margin-top: 30px;
+        flex-direction: row; /* Stack username and password input fields vertically */
+        margin-left: 10%;
+        gap: 10px;
+        height: 20%;
+        width: 80%;
+    }
+    .username{
+        width: 80%;
+    
+    }
+    .username input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .pass{
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        gap: 10px;
+    
+    }
+    .password{
+        width: 80%;
+    
+    }
+    .password input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon2 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .remeber{
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20px 20px;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        gap: 10px;
+        /* background-color: #0000FF; */
+    
+    }
+    .rem1{
+        font-size: small;
+    }
+
+    
+    .rem2{
+        font-size: small;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .submit{
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sub{
+     width: 60%;
+     font-size: larger;
+     border-radius: 25px;
+     background-color: #0000FF;
+     color: #fff;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    .social1{
+        display: flex;
+        align-items: center;
+        font-size: large;
+        height: 30px;
+    }
+    .f5{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: 0%;
+    
+      }
+      .smbttn{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+  }
+
+
+
+
+/* media 768 */
+  @media (max-width: 768px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .login {
+        width: 60%; /* Make the form take up more space on small screens */
+        height: auto; /* Allow the height to adjust based on content */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .login h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec2{
+        background-color: transparent;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 0.2px solid black;
+        border-radius: 10px;
+    }
+    .name{
+        margin-top: 30px;
+        flex-direction: row; /* Stack username and password input fields vertically */
+        margin-left: 10%;
+        gap: 10px;
+        height: 20%;
+        width: 80%;
+    }
+    .username{
+        width: 80%;
+    
+    }
+    .username input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .pass{
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        gap: 10px;
+    
+    }
+    .password{
+        width: 80%;
+    
+    }
+    .password input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon2 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .remeber{
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20px 20px;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        gap: 10px;
+        /* background-color: #0000FF; */
+    
+    }
+    .rem1{
+        font-size: small;
+    }
+
+    
+    .rem2{
+        font-size: small;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .submit{
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sub{
+     width: 60%;
+     font-size: larger;
+     border-radius: 25px;
+     background-color: #0000FF;
+     color: #fff;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    .social1{
+        display: flex;
+        align-items: center;
+        font-size: large;
+        height: 30px;
+    }
+    .f5{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: 0%;
+    
+      }
+      .smbttn{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+  }
+/* media 480 */
+  @media (max-width: 480px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .login {
+        width: 60%; /* Make the form take up more space on small screens */
+        height: auto; /* Allow the height to adjust based on content */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .login h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec2{
+        background-color: transparent;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 0.2px solid black;
+        border-radius: 10px;
+    }
+    .name{
+        margin-top: 30px;
+        flex-direction: row; /* Stack username and password input fields vertically */
+        margin-left: 10%;
+        gap: 10px;
+        height: 20%;
+        width: 80%;
+    }
+    .username{
+        width: 80%;
+    
+    }
+    .username input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .pass{
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        gap: 10px;
+    
+    }
+    .password{
+        width: 80%;
+    
+    }
+    .password input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon2 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .remeber{
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20px 20px;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        gap: 10px;
+        /* background-color: #0000FF; */
+    
+    }
+    .rem1{
+        font-size: small;
+    }
+
+    
+    .rem2{
+        font-size: small;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .submit{
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sub{
+     width: 60%;
+     font-size: larger;
+     border-radius: 25px;
+     background-color: #0000FF;
+     color: #fff;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    .social1{
+        display: flex;
+        align-items: center;
+        font-size: large;
+        height: 30px;
+    }
+    .f5{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: 0%;
+    
+      }
+      .smbttn{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+  }
+/* media 1024 */
+  @media (max-width: 1024px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .login {
+        width: 40%; /* Make the form take up more space on small screens */
+        height: auto; /* Allow the height to adjust based on content */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .login h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec2{
+        background-color: transparent;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 0.2px solid black;
+        border-radius: 10px;
+    }
+    .name{
+        margin-top: 30px;
+        flex-direction: row; /* Stack username and password input fields vertically */
+        margin-left: 10%;
+        gap: 10px;
+        height: 20%;
+        width: 80%;
+    }
+    .username{
+        width: 80%;
+    
+    }
+    .username input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .pass{
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        gap: 10px;
+    
+    }
+    .password{
+        width: 80%;
+    
+    }
+    .password input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon2 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .remeber{
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20px 20px;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        gap: 10px;
+        /* background-color: #0000FF; */
+    
+    }
+    .rem1{
+        font-size: small;
+    }
+
+    
+    .rem2{
+        font-size: small;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .submit{
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sub{
+     width: 60%;
+     font-size: larger;
+     border-radius: 25px;
+     background-color: #0000FF;
+     color: #fff;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    .social1{
+        display: flex;
+        align-items: center;
+        font-size: large;
+        height: 30px;
+    }
+    .f5{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: 0%;
+    
+      }
+      .smbttn{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+  }
+/* media */
+  @media (max-width: 320px) {
+    .nav {
+        padding: 20px;
+    }
+
+    .login {
+        width: 60%; /* Make the form take up more space on small screens */
+        height: auto; /* Allow the height to adjust based on content */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .login h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec2{
+        background-color: transparent;
+        height: 150px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        border: 0.2px solid black;
+        border-radius: 10px;
+    }
+    .name{
+        margin-top: 30px;
+        flex-direction: row; /* Stack username and password input fields vertically */
+        margin-left: 10%;
+        gap: 10px;
+        height: 20%;
+        width: 80%;
+    }
+    .username{
+        width: 80%;
+    
+    }
+    .username input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .pass{
+        justify-content: center;
+        width: 80%;
+        margin-top: 30px;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        gap: 10px;
+    
+    }
+    .password{
+        width: 80%;
+    
+    }
+    .password input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: small;
+    
+    }
+    .icon2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icon2 i {
+        font-size: 1em; /* This makes the icon 2 times the default size */
+    }
+    .remeber{
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 20px 20px;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        gap: 10px;
+        /* background-color: #0000FF; */
+    
+    }
+    .rem1{
+        font-size: small;
+    }
+
+    
+    .rem2{
+        font-size: small;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .submit{
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sub{
+     width: 60%;
+     font-size: larger;
+     border-radius: 25px;
+     background-color: #0000FF;
+     color: #fff;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    .social1{
+        display: flex;
+        align-items: center;
+        font-size: large;
+        height: 30px;
+    }
+    .f5{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: 0%;
+    
+      }
+      .smbttn{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+  }
