@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0%;
     padding: 0%;
 }
@@ -19,7 +19,7 @@
 .login{
     /* background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-light-wave-blurred-backdrop-vector-illustration-your-graphic-design-banner-wallpaper-template-poster_1142-7640.jpg?semt=ais_hybrid"); */
 
-    background-color: floralwhite;
+    background-color: transparent;
     height: 65%;
     width: 25%;
     display: flex;
@@ -36,9 +36,10 @@
 .login h1{
     margin-top: 40px;
    margin-left: 40%;
+   color: #fff;
 }
 .sec2{
-    background-color: transparent;
+    background-color: #fff;
     height: 35%;
     width: 80%;
     margin-left: 10%;
@@ -62,7 +63,7 @@
 .username input{
     height: 100%;
     width: 100%;
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 15px;
     font-size: larger;
 
@@ -117,11 +118,16 @@
 
 }
 .rem1{
+    font-size: 20px;
+    color: #fff;
 }
 
+
 .rem2{
+    color: #fff;
     display: flex;
     justify-content: end;
+    font-size: 20px;
 }
 
 .submit{
@@ -136,8 +142,9 @@
  width: 60%;
  font-size: larger;
  border-radius: 25px;
- background-color: #0000FF;
+ background-color: #0961ee;
  color: #fff;
+ border-color: #fff;
 }
 .social{
     display: flex;
@@ -146,14 +153,17 @@
     gap: 2%;
 }
 .social1{
+    color: #fff;
     display: flex;
     align-items: center;
     margin-top: 2%;
+    margin-top: 10px;
     font-size: xx-large;
     height: 30%;
 }
 .f5{
     display: flex;
+    margin-top: 10px;
     align-items: center;
     gap:5px;
     margin-top: 0%;
@@ -165,13 +175,17 @@
     border-radius: 50%;
   }
 /* media 600px */
-  @media (max-width: 600px) {
+  @media (max-width: 600px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .nav {
         padding: 20px;
     }
 
     .login {
-        width: 60%; /* Make the form take up more space on small screens */
+        width: 80%; /* Make the form take up more space on small screens */
         height: auto; /* Allow the height to adjust based on content */
         margin: 0 auto; /* Center the form */
         padding: 20px; /* Add padding for spacing */
@@ -183,7 +197,7 @@
         margin-top: 20px;
     }
     .sec2{
-        background-color: transparent;
+        /* background-color: #fff; */
         height: 150px;
         width: 80%;
         margin-left: 10%;
@@ -323,12 +337,16 @@
 
 /* media 768 */
   @media (max-width: 768px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .nav {
         padding: 20px;
     }
 
     .login {
-        width: 60%; /* Make the form take up more space on small screens */
+        width: 70%; /* Make the form take up more space on small screens */
         height: auto; /* Allow the height to adjust based on content */
         margin: 0 auto; /* Center the form */
         padding: 20px; /* Add padding for spacing */
@@ -340,7 +358,7 @@
         margin-top: 20px;
     }
     .sec2{
-        background-color: transparent;
+        /* background-color: transparent; */
         height: 150px;
         width: 80%;
         margin-left: 10%;
@@ -475,28 +493,31 @@
     
   }
 /* media 480 */
-  @media (max-width: 480px) {
+  @media (max-width: 425px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .nav {
         padding: 20px;
     }
 
     .login {
-        width: 60%; /* Make the form take up more space on small screens */
+        width: 90%; /* Make the form take up more space on small screens */
         height: auto; /* Allow the height to adjust based on content */
         margin: 0 auto; /* Center the form */
-        padding: 20px; /* Add padding for spacing */
+        
     }
-
     .login h1 {
         margin-left: 0;
         text-align: center;
         margin-top: 20px;
     }
     .sec2{
-        background-color: transparent;
+        /* background-color: transparent; */
         height: 150px;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         margin-top: 3%;
         border: 0.2px solid black;
         border-radius: 10px;
@@ -629,12 +650,16 @@
   }
 /* media 1024 */
   @media (max-width: 1024px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     .nav {
         padding: 20px;
     }
 
     .login {
-        width: 40%; /* Make the form take up more space on small screens */
+        width: 60%; /* Make the form take up more space on small screens */
         height: auto; /* Allow the height to adjust based on content */
         margin: 0 auto; /* Center the form */
         padding: 20px; /* Add padding for spacing */
@@ -646,7 +671,7 @@
         margin-top: 20px;
     }
     .sec2{
-        background-color: transparent;
+        /* background-color: transparent; */
         height: 150px;
         width: 80%;
         margin-left: 10%;
@@ -782,6 +807,10 @@
   }
 /* media */
   @media (max-width: 320px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .nav {
         padding: 20px;
     }
@@ -799,7 +828,7 @@
         margin-top: 20px;
     }
     .sec2{
-        background-color: transparent;
+        /* background-color: transparent; */
         height: 150px;
         width: 80%;
         margin-left: 10%;
