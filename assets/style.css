@@ -5,14 +5,14 @@
 
 
 .nav {
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-light-wave-blurred-backdrop-vector-illustration-your-graphic-design-banner-wallpaper-template-poster_1142-7640.jpg?semt=ais_hybrid");
-    background-size: cover; /* Make sure the image covers the entire area */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 
@@ -24,9 +24,9 @@
     width: 25%;
     display: flex;
     flex-direction: column;
-    background-size: cover; /* Make sure the image covers the entire area */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
     border: transparent;
 
@@ -75,7 +75,7 @@
     justify-content: center;
 }
 .icon1 i {
-    font-size: 2em; /* This makes the icon 2 times the default size */
+    font-size: 2em; 
 }
 .pass{
     justify-content: center;
@@ -185,10 +185,10 @@
     }
 
     .login {
-        width: 80%; /* Make the form take up more space on small screens */
-        height: auto; /* Allow the height to adjust based on content */
-        margin: 0 auto; /* Center the form */
-        padding: 20px; /* Add padding for spacing */
+        width: 80%; 
+        height: auto; 
+        margin: 0 auto; 
+        padding: 20px; 
     }
 
     .login h1 {
@@ -207,7 +207,7 @@
     }
     .name{
         margin-top: 30px;
-        flex-direction: row; /* Stack username and password input fields vertically */
+        flex-direction: row; 
         margin-left: 10%;
         gap: 10px;
         height: 20%;
@@ -232,7 +232,7 @@
         justify-content: center;
     }
     .icon1 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .pass{
         justify-content: center;
@@ -265,7 +265,7 @@
         
     }
     .icon2 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .remeber{
         height: 60px;
@@ -346,10 +346,10 @@
     }
 
     .login {
-        width: 70%; /* Make the form take up more space on small screens */
-        height: auto; /* Allow the height to adjust based on content */
-        margin: 0 auto; /* Center the form */
-        padding: 20px; /* Add padding for spacing */
+        width: 70%; 
+        height: auto; 
+        margin: 0 auto;
+        padding: 20px; 
     }
 
     .login h1 {
@@ -368,7 +368,7 @@
     }
     .name{
         margin-top: 30px;
-        flex-direction: row; /* Stack username and password input fields vertically */
+        flex-direction: row; 
         margin-left: 10%;
         gap: 10px;
         height: 20%;
@@ -393,7 +393,7 @@
         justify-content: center;
     }
     .icon1 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .pass{
         justify-content: center;
@@ -426,7 +426,7 @@
         
     }
     .icon2 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .remeber{
         height: 60px;
@@ -503,9 +503,9 @@
     }
 
     .login {
-        width: 90%; /* Make the form take up more space on small screens */
-        height: auto; /* Allow the height to adjust based on content */
-        margin: 0 auto; /* Center the form */
+        width: 90%; 
+        height: auto;
+        margin: 0 auto;
         
     }
     .login h1 {
@@ -524,7 +524,7 @@
     }
     .name{
         margin-top: 30px;
-        flex-direction: row; /* Stack username and password input fields vertically */
+        flex-direction: row; 
         margin-left: 10%;
         gap: 10px;
         height: 20%;
@@ -549,7 +549,7 @@
         justify-content: center;
     }
     .icon1 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .pass{
         justify-content: center;
@@ -582,7 +582,7 @@
         
     }
     .icon2 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .remeber{
         height: 60px;
@@ -659,10 +659,10 @@
     }
 
     .login {
-        width: 60%; /* Make the form take up more space on small screens */
-        height: auto; /* Allow the height to adjust based on content */
-        margin: 0 auto; /* Center the form */
-        padding: 20px; /* Add padding for spacing */
+        width: 60%; 
+        height: auto; 
+        margin: 0 auto;
+        padding: 20px; 
     }
 
     .login h1 {
@@ -681,7 +681,7 @@
     }
     .name{
         margin-top: 30px;
-        flex-direction: row; /* Stack username and password input fields vertically */
+        flex-direction: row; 
         margin-left: 10%;
         gap: 10px;
         height: 20%;
@@ -706,7 +706,7 @@
         justify-content: center;
     }
     .icon1 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .pass{
         justify-content: center;
@@ -739,7 +739,7 @@
         
     }
     .icon2 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .remeber{
         height: 60px;
@@ -816,10 +816,10 @@
     }
 
     .login {
-        width: 60%; /* Make the form take up more space on small screens */
-        height: auto; /* Allow the height to adjust based on content */
-        margin: 0 auto; /* Center the form */
-        padding: 20px; /* Add padding for spacing */
+        width: 60%; 
+        height: auto;
+        margin: 0 auto;
+        padding: 20px; 
     }
 
     .login h1 {
@@ -838,7 +838,7 @@
     }
     .name{
         margin-top: 30px;
-        flex-direction: row; /* Stack username and password input fields vertically */
+        flex-direction: row; 
         margin-left: 10%;
         gap: 10px;
         height: 20%;
@@ -863,7 +863,7 @@
         justify-content: center;
     }
     .icon1 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .pass{
         justify-content: center;
@@ -896,7 +896,7 @@
         
     }
     .icon2 i {
-        font-size: 1em; /* This makes the icon 2 times the default size */
+        font-size: 1em; 
     }
     .remeber{
         height: 60px;
